@@ -16,8 +16,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: [  "https://axo-1.onrender.com"
-],
+    origin: [ "http://localhost:5174", "https://axo-1.onrender.com" ],
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
   })
