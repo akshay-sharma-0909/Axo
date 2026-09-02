@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: [  "http://localhost:5173" , "https://frontend-f83gy09mo-akshay-ee87.vercel.app/"
+    origin: [  "https://axo-1.onrender.com"
 ],
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
