@@ -226,7 +226,7 @@ export default function Contact() {
 
     try {
       const response = await fetch(
-        import.meta.env.Backend,
+        import.meta.env.VITE_BACKEND_URL,
         {
           method: "POST",
 
